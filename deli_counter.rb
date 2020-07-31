@@ -1,17 +1,19 @@
 def line(array)
-  first_in_line = []
+  katz_deli = []
   if array.empty?
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     array.each_with_index do |name, index|
-      new_array.push("#{index + 1}. #{name}")
+      katz_deli.push("#{index + 1}. #{name}")
     end
-    new_array.unshift("The line is currently: ")
+    katz_deli.unshift("The line is currently:")
   end
 end
 
-def take_a_number
+def take_a_number(katz_deli, name)
+
 end
 
-def now_serving
+def now_serving(katz_deli)
+
 end
