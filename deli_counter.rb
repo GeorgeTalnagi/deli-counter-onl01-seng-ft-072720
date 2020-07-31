@@ -1,5 +1,6 @@
-def line(array)
-  katz_deli = []
+katz_deli = []
+
+def line(katz_deli)
   if array.empty?
     puts "The line is currently empty."
   else
